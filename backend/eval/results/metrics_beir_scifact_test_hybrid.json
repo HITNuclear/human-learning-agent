@@ -1,0 +1,13 @@
+{
+  "dataset": "beir/scifact/test",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "mode": "hybrid",
+  "reranker_model": null,
+  "top_k": 10,
+  "indexed_docs": 3000,
+  "evaluated_queries": 100,
+  "recall@5": 0.626833,
+  "recall@10": 0.677167,
+  "mrr@10": 0.575861,
+  "ndcg@10": 0.591023
+}

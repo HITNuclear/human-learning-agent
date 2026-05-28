@@ -1,0 +1,2 @@
+ir_datasets==0.5.9
+tqdm==4.67.1

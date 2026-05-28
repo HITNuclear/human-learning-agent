@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.env
+!*.env.example
+
+# Backend runtime data
+backend/.env
+backend/data/
+backend/uploads/
+backend/venv/
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# Frontend runtime/build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
